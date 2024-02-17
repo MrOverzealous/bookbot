@@ -23,7 +23,7 @@ def main():
 
 def get_book_text(text):
     with open(text) as f:
-        return f.read()
+        return f.read()                                                                                                                          
 
 def count_words(text):
     words = text.split(None)
